@@ -1,0 +1,32 @@
+🟡 MEDIUM · Security News
+━━━━━━━━━━━━━━
+🚨 Servidores Oracle PeopleSoft hackeados em ataques de roubo de dados da gangue ShinyHunters
+
+Source: BleepingComputer
+Date: 2026-06-10
+Monitored Assets: oracle
+Threats: Rootkit, Zero-Day, Exploitation
+Targeted Sectors: Educação
+
+[ MITRE ATT&CK ]
+• T1195 — Supply Chain Compromise
+
+[ Executive Summary ]
+Os servidores Oracle PeopleSoft estão sendo alvo de ataques de roubo de dados em andamento pela gangue de extorsão ShinyHunters, que afirma ter roubado dados de mais de 100 organizações. O PeopleSoft é um conjunto de software de negócios empresariais usado por grandes organizações para gerenciar operações de negócios, como recursos humanos, folha de pagamento, finanças, gestão da cadeia de suprimentos, compras e administração de estudantes.
+
+[ IMPACT & MITIGATION ]
+Os ataques parecem estar visando principalmente o setor de educação, com muitas organizações anteriormente extorquidas pelo grupo. A gangue afirma estar usando uma 'cadeia de gadgets' de vulnerabilidades antigas e zero-day para realizar os ataques. As organizações que executam Oracle PeopleSoft devem analisar os logs para qualquer conexão a partir dos endereços IP listados para determinar se foram alvo desses ataques. Se esses IoCs forem encontrados, as organizações devem iniciar imediatamente a resposta a incidentes, investigar se a instância PeopleSoft foi comprometida e considerar remover temporariamente os servidores afetados do acesso à internet até que o ambiente possa ser seguro e revisado.
+
+[ Indicators of Compromise ]
+IPs:
+• 142.11.200.186
+• 142.11.200.187
+• 142.11.200.188
+• 142.11.200.189
+• 142.11.200.190
+• 108.174.202.99
+• 176.120.22.24
+Domínios:
+• azurenetfiles.net
+
+🔗 Source (https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/)
